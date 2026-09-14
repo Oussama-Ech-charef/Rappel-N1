@@ -1,0 +1,13 @@
+Interface,Nom,Signification,Format,Obligatoire,Calculée
+Article,article_name,Name of the article,Texte,Oui,Non
+Article,content,Content of the article,Texte long,Oui,Non
+Article,image,Cover image of the article,Image path,Non,Non
+Article,date_publication,Publication date of the article,JJ/MM/AAAA,Oui,Non
+Article,status,Status of the article,Draft/Published,Oui,Non
+Authors,name,Full name of the author,Texte,Oui,Non
+Authors,email,Email address of the author,Email,Oui,Non
+Authors,password,Password of the author,Texte,Oui,Non
+Authors,image_auteur,Profile picture of the author,Image path,Non,Non
+Categories,category_name,Name of the category,Texte,Oui,Non
+Categories,color,Color of the category,Hexadecimal,Oui,Non
+Categories,icon,Icon of the category,Texte,Oui,Non
