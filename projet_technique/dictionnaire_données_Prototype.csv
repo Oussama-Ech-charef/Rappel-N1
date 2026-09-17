@@ -1,0 +1,23 @@
+interface,Name,signification,Type,Obligatoire,calcule
+Organisateur,id_organisateur,Identifiant unique de l'organisateur,INT,Oui,Non
+Organisateur,nom,Nom de l'organisateur,VARCHAR(100),Oui,Non
+Organisateur,email,Adresse email de l'organisateur,VARCHAR(150),Oui,Non
+Organisateur,mot_de_passe,Mot de passe de l'organisateur,VARCHAR(255),Oui,Non
+Organisateur,role,Rôle de l'organisateur,VARCHAR(50),Oui,Non
+Category,id_category,Identifiant unique de la catégorie,INT,Oui,Non
+Category,nom_category,Nom de la catégorie,VARCHAR(100),Oui,Non
+Category,description,Description de la catégorie,TEXT,Non,Non
+Evenement,id_evenement,Identifiant unique de l'événement,INT,Oui,Non
+Evenement,titre,Titre de l'événement,VARCHAR(150),Oui,Non
+Evenement,content,Contenu détaillé de l'événement,TEXT,Oui,Non
+Evenement,image,Image de l'événement,VARCHAR(255),Non,Non
+Evenement,date_evenement,Date de l'événement,DATE,Oui,Non
+Evenement,date_publication,Date de publication de l'événement,DATETIME,Oui,Non
+Evenement,lieu,Lieu où se déroule l'événement,TEXT,Oui,Non
+Evenement,prix,Prix du billet,"DECIMAL(10,2)",Oui,Non
+Evenement,status,Statut de l'événement,VARCHAR(20),Oui,Non
+Evenement,id_organisateur,Identifiant de l'organisateur associé,INT,Oui,Non
+Evenement,id_category,Identifiant de la catégorie associée,INT,Oui,Non
+Evenement,heure_evenement,Heure de l'événement,TIME,Oui,Non
+Evenement,nombre_places,Nombre de places disponibles,INT,Oui,Non
+Evenement,date_fin,Date de fin de l'événement,DATE,Non,Non
