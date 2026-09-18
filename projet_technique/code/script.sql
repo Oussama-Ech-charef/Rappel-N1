@@ -1,6 +1,6 @@
-create database billetterie_evenements;
+create database evenets;
 
-use billetterie_evenements ;
+use evenets ;
 
 
 create table organisateur (
